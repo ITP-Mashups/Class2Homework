@@ -1,0 +1,49 @@
+
+	body {
+    background-color: Black;
+}
+
+	.myBox {
+
+		position: fixed;
+		padding: 1%;
+		border: .1em solid #BC8F8F;
+		border-style: outset;
+		/* margin: 2%; */
+		margin-left: 16%;
+
+
+		color: MediumOrchid;
+		font-size: 10em;
+		font-family: "Times New Roman", Times, serif;
+		text-align: center;
+		text-shadow: .1em .1em rgba(102, 51, 153, .3);
+		font-weight: bold;
+		letter-spacing: .5em;
+		}
+
+
+		img{
+			display: block;
+			margin: auto;
+			width: 75%;
+		}
+
+	.myBox2 {
+
+		position: relative;
+		width:20em
+		height 20em;
+		padding: 1%;
+		border: .5em solid #BC8F8F;
+		border-style: inset;
+		margin: 1%;
+
+		color: MediumOrchid;
+		font-size: 1.5em;
+		font-family: "Times New Roman", Times, serif;
+		text-align: center;
+		font-weight: bold;
+		letter-spacing: .7em;
+		}
+
