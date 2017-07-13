@@ -2,11 +2,23 @@
 <html>
 	<head>
 		<meta charset="utf-8"/>
-		<!-- <meta name="viewport" content="width=device-width"> -->
-		<title>HTML Boilerplate</title> 
-		<link rel="stylesheet" type="text/css" href="style.css" />
-	</head>
-	<body>
-		<!-- CONTENT GOES HERE -->
-	</body>
+		<title>Ahmad Arshad ClassRoom2 Homework</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script type="text/javascript">
+		function callitpyearbook() {
+    $.getJSON('https://itp.nyu.edu/ranch/api/itp-yearbook/2018', function(data) {
+			var html = '';
+			var len = data.length;
+    	for (var i = 0; i < len; i++) {html += '<div class=name>' + data[i].name + '</div>';}
+      $('#output').append(html);
+    });
+	}
+	callitpyearbook();
+	</script>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+	<h1>Class of 2018</h1>
+	<div id="output"></div>
+</body>
 </html>
