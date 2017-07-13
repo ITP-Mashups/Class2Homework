@@ -3,25 +3,35 @@ body {
 }
 main {
     overflow-x:auto;
+    margin: 0 auto;
+    width: 85%
 }
 
 table {
     border-collapse: collapse;
+    
+
 }
+
 td, th {
-  padding: 2px 4px;
+  padding: 4px 8px;
   border: 1px solid #efefef;
   text-align: left;
   vertical-align: middle;
   width:33%;
-  font-size: .7em;
+  font-size: .75em;
   color: #4D557F;
  
 }
 
+tr:first-child th {
+  background-color:#4D557F;
+  color: #fff;
+  font-size: 1em;    
+}
 
 tr:nth-child(even) {
-    background-color: #f2f2f2;
+  background-color: #f2f2f2;
 }
 
 tr:hover {
