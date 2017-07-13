@@ -1,0 +1,45 @@
+body {
+	background-color: #D3D3D3;
+}
+
+h1 {
+	font-family: helvetica;
+	color: #483D8B;
+	padding-bottom: .2%;
+	position: center;
+	width: 300px;
+	height: 200px;
+}
+
+
+h2 {
+	font-family: helvetica;
+	color: #ff6347;
+	padding-bottom: 3%;
+}
+
+
+.artwork-info {
+	color: #ff6347;
+	font-family: helvetica;
+	text-align: center;
+	padding-bottom: 3%;
+}
+
+.artwork-image {
+	display: block;
+	margin: auto;
+	padding-bottom: 3%;
+	position: relative;
+	width: 50%
+}
+
+#great-wave {
+	display: block;
+	position: relative;
+	margin-left: 35%;
+	padding-bottom: 3%;
+
+}
+/*had real issues trying to figure out how to align images -- especially last one which is vertical format, not horizontal */
+
