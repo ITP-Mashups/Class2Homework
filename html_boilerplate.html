@@ -3,10 +3,73 @@
 	<head>
 		<meta charset="utf-8"/>
 		<!-- <meta name="viewport" content="width=device-width"> -->
-		<title>HTML Boilerplate</title> 
+		<title>HTML Boilerplate: Mcleod Homework 2</title> 
 		<link rel="stylesheet" type="text/css" href="style.css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+        
+        
 	</head>
 	<body>
-		<!-- CONTENT GOES HERE -->
+		<h1>World Bank Indicators</h1>
+        <main></main>
 	</body>
+    <script>
+        
+       $.get("http://api.worldbank.org/indicators?format=json",
+              {},
+              function(data) {
+                //alert('page content: ' + data);
+                console.log(data);
+           
+           
+
+  function tabulate(data, columns) {
+		var table = d3.select('body').append('table')
+		var thead = table.append('thead')
+		var	tbody = table.append('tbody');
+
+		// append the header row
+		thead.append('tr')
+		  .selectAll('th')
+		  .data(columns).enter()
+		  .append('th')
+		    .text(function (column) { return column; });
+
+		// create a row for each object in the data
+		var rows = tbody.selectAll('tr')
+		  .data(data[1])
+		  .enter()
+		  .append('tr');
+
+		// create a cell in each row for each column
+		var cells = rows.selectAll('td')
+		  .data(function (row) {
+		    return columns.map(function (column) {
+		      return {column: column, value: row[column]};
+		    });
+		  })
+		  .enter()
+		  .append('td')
+		    .text(function (d) { return d.value; });
+
+	  return table;
+	}
+
+	// render the table(s)
+	tabulate(data, ['name', 'sourceNote', 'sourceOrganization']); // 3 column table
+
+});
+           
+           
+           
+           
+
+            
+        
+        
+        
+   
+    </script>
 </html>
