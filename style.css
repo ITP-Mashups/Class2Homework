@@ -19,6 +19,8 @@ html{
 	margin: 0 auto;
 	text-align: center;
 
+	font-weight: bold;
+
 }
 #calories{
 	width: 50%;
@@ -27,12 +29,14 @@ html{
 }
 
 ul{
+	font-weight: bold;
 	list-style: none;
 	border: 0.5px dotted black;
 	padding-left: 0px;
 
 }
 li{
+	font-weight:normal;
 	padding-left: 20px;
 	//margin-top: 2px;
 	//margin-bottom: 2px;
