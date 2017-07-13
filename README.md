@@ -5,4 +5,4 @@ The assignment was to format a web page using API data. I chose the World Bank i
 I use Brackets for web development, which made styling and viewing the results very easy.  As always, W3Schools help on styling tables was a great help.
 One thing I'd like to work on further is accessing the data from the API outside of the get request function. I couldn't create a global variable for the response data, which doesn't quite matter in simple pages but may be useful in more complex pages. I also could have gone down into the nested layers of the json return for table information, but left it at first layer info for ease of access.
 
-
+![Media Coverage Explorer](https://github.com/lanimc/Class2Homework/IndicatorsScreenshot.png)
