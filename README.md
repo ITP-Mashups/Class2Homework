@@ -1,5 +1,12 @@
 # Class2Homework
+This assignment is to create a webpage with some of the data returned by an API.
 
-Fork this repo, clone the forked repo to your computer, edit these files to complete your assignment, and create a Pull Request in this repo
+I have a Squarespace page that I can add my
 
-Remember to update the README.md file to include this week's journal. You can delete all of this existing text.
+I want to get data from shopstyle.com API. I have the key, but I'm not sure where to put it in order to get a response.
+
+My inspiration is my love for fashion. I'm thinking maybe I can have fun with it for this project.
+
+I am having trouble coding through Github. I have basic coding skills and I know how to make simple websites, I just don't understand this whole Github thing and how to use it. I am used to DreamWeaver. I am going to try to do my homework on there and then transfer it to here.
+
+highlight both successes and failures
