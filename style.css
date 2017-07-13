@@ -1,0 +1,10 @@
+.name {
+  font-family: fantasy;
+ font-weight: bold;
+ color: blue;
+ border-style: solid;
+ border-color: red;
+ border-width: 1px;
+ margin: 10px;
+ padding: 10px;
+}
