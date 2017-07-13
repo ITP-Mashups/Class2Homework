@@ -1,67 +1,84 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-*{
-	border-radius: 2px;
+*
+{
+    border-radius: 2px;
 }
-html{
-	font-family: 'Roboto', sans-serif; 
+html
+{
+    font-family: 'Roboto', sans-serif;
 }
-.wrapper{
-	width: 20%;
-	margin: 0 auto;
+.wrapper
+{
+    width: 20%;
+    margin: 0 auto;
+    padding: 5px;
 
-	border: 1px solid black;
-	padding: 5px;
-}
-
-#title{
-	margin: 0 auto;
-	text-align: center;
-
-	font-weight: bold;
-
-}
-#calories{
-	margin: 0 auto;
-	text-align: center;
+    border: 1px solid black;
 }
 
-ul{
-	font-weight: bold;
-	list-style: none;
-	border: 0.5px dotted black;
-	padding-left: 0px;
+#title
+{
+    font-weight: bold;
 
-}
-li{
-	font-weight:normal;
-	padding-left: 20px;
-	//margin-top: 2px;
-	//margin-bottom: 2px;
-}
+    margin: 0 auto;
 
-.percent{
-	float: right;
-	margin-right: 5px;
+    text-align: center;
+}
+#calories
+{
+    margin: 0 auto;
+
+    text-align: center;
 }
 
-@media(max-width: 1024px){
-	.wrapper{
-		width: 40%;
-		margin: 0 auto;
+ul
+{
+    font-weight: bold;
 
-		border: 1px solid black;
-		padding: 5px;
-	}
+    padding-left: 0;
+
+    list-style: none;
+
+    border: .5px dotted black;
+}
+li
+{
+    font-weight: normal;
+
+    padding-left: 20px;
+
+    //margin-top: 2px;
+    //margin-bottom: 2px;
 }
 
-@media(max-width: 425px){
-	.wrapper{
-		width: 95%;
-		margin: 0 auto;
+.percent
+{
+    float: right;
 
-		border: 1px solid black;
-		padding: 5px;
-	}
+    margin-right: 5px;
 }
 
+@media(max-width: 1024px)
+{
+    .wrapper
+    {
+        width: 40%;
+        margin: 0 auto;
+        padding: 5px;
+
+        border: 1px solid black;
+    }
+}
+
+@media(max-width: 425px)
+{
+    .wrapper
+    {
+        width: 95%;
+        margin: 0 auto;
+        padding: 5px;
+
+        border: 1px solid black;
+    }
+}
