@@ -15,7 +15,6 @@ html{
 }
 
 #title{
-	width: 50%;
 	margin: 0 auto;
 	text-align: center;
 
@@ -23,7 +22,6 @@ html{
 
 }
 #calories{
-	width: 50%;
 	margin: 0 auto;
 	text-align: center;
 }
