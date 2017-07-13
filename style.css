@@ -1,2 +1,19 @@
+@charset "UTF-8";
+
 body {
-    background-color: red;
+    font-color: green;/* CSS Document */
+}
+
+.container {
+	padding: 10px;
+	margin: 0px;
+	border: 0px;
+	border color: blue;
+	text-align: left;
+	
+}
+
+.content {
+	{"id":359131344,"name":"Matthew Williamson Jungle Whispers Gown","brandedName":"Matthew Williamson Jungle Whispers Gown","unbrandedName":"Jungle Whispers Gown","currency":"USD","price":360.0,"priceLabel":"Sold Out","inStock":false,"stock":[{"color":{"name":"Green"},"size":{"name":"8L"}},{"color":{"name":"Green"},"size":{"name":"12L"}},{"color":{"name":"Green"},"size":{"name":"8R"}},{"color":{"name":"Green"},"size":{"name":"12R"}},{"color":{"name":"Green"},"size":{"name":"6R"}},{"color":{"name":"Green"},"size":{"name":"6L"}},{"color":{"name":"Green"},"size":{"name":"10L"}},{"color":{"name":"Green"},"size":{"name":"14L"}},{"color":{"name":"Green"},"size":{"name":"10R"}},{"color":{"name":"Green"},"size":{"name":"14R"}}],"retailer":{"id":"876","name":"Rent The Runway","score":0},"brand":{"id":"1636","name":"Matthew Williamson"},"locale":"en_US","description":"Retail price $2825.00, rental price $360.00. Walk into the black tie event having all eyes on you wearing this Matthew Williamson chiffon gown. An absolute show stopper. Go with stunning accessories like the Erickson Beamon's Tropical Punch Earrings and a cocktail ring like the Erickson Beamon's Bette Davis Eyes Emerald Ring.","clickUrl":"https://api.shopstyle.com/action/apiVisitRetailer?id=359131344&pid=uid900-39614970-37","image":{"sizes":{"Small":{"sizeName":"Small","url":"https://img.shopstyle-cdn.com/pim/d2/f0/d2f05dcc382c1c6a8ef721c0ec0cd1b4_small.jpg","width":32,"height":40,"actualWidth":32,"actualHeight":40},"XLarge":{"sizeName":"XLarge","url":"https://img.shopstyle-cdn.com/xim/d2/f0/d2f05dcc382c1c6a8ef721c0ec0cd1b4.jpg","width":328,"height":410,"actualWidth":328,"actualHeight":410},"Medium":{"sizeName":"Medium","url":"https://img.shopstyle-cdn.com/sim/d2/f0/d2f05dcc382c1c6a8ef721c0ec0cd1b4_medium/matthew-williamson-jungle-whispers-gown.jpg","width":112,"height":140,"actualWidth":112,"actualHeight":140},"Large":{"sizeName":"Large","url":"https://img.shopstyle-cdn.com/sim/d2/f0/d2f05dcc382c1c6a8ef721c0ec0cd1b4/matthew-williamson-jungle-whispers-gown.jpg","width":164,"height":205,"actualWidth":164,"actualHeight":205},"IPhoneSmall":{"sizeName":"IPhoneSmall","url":"https://img.shopstyle-cdn.com/mim/d2/f0/d2f05dcc382c1c6a8ef721c0ec0cd1b4_small.jpg","width":100,"height":125,"actualWidth":100,"actualHeight":125},"Best":{"sizeName":"Best","url":"https://img.shopstyle-cdn.com/pim/d2/f0/d2f05dcc382c1c6a8ef721c0ec0cd1b4_best.jpg","width":720,"height":900,"actualWidth":720,"actualHeight":900},"Original":{"sizeName":"Original","url":"https://img.shopstyle-cdn.com/pim/d2/f0/d2f05dcc382c1c6a8ef721c0ec0cd1b4_best.jpg"},"IPhone":{"sizeName":"IPhone","url":"https://img.shopstyle-cdn.com/mim/d2/f0/d2f05dcc382c1c6a8ef721c0ec0cd1b4.jpg","width":288,"height":360,"actualWidth":288,"actualHeight":360}},"id":"d2f05dcc382c1c6a8ef721c0ec0cd1b4"},"alternateImages":[],"checkoutEnabled":false,"colors":[{"name":"Green","canonicalColors":[{"id":"13","name":"Green"}]}],"sizes":[{"name":"6R","canonicalSize":{"id":"83","name":"S (4-6)"}},{"name":"6L","canonicalSize":{"id":"83","name":"S (4-6)"}},{"name":"8R","canonicalSize":{"id":"85","name":"M (8-10)"}},{"name":"8L","canonicalSize":{"id":"85","name":"M (8-10)"}},{"name":"10R","canonicalSize":{"id":"85","name":"M (8-10)"}},{"name":"10L","canonicalSize":{"id":"85","name":"M (8-10)"}},{"name":"12R","canonicalSize":{"id":"87","name":"L (12-14)"}},{"name":"12L","canonicalSize":{"id":"87","name":"L (12-14)"}},{"name":"14R","canonicalSize":{"id":"87","name":"L (12-14)"}},{"name":"14L","canonicalSize":{"id":"87","name":"L (12-14)"}}],"categories":[{"id":"evening-dresses","name":"Evening Dresses","shortName":"Evening","fullName":"Evening Dresses","localizedId":"evening-dresses"}],"extractDate":"2012-07-25","lastModified":"2016-03-31","badges":[],"seeMoreLabel":"Matthew Williamson Evening Dresses","preOwned":false,"rental":true}
+
+}
