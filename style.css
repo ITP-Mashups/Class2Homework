@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*{
+	border-radius: 2px;
+}
+html{
+	font-family: 'Roboto', sans-serif; 
+}
+.wrapper{
+	width: 20%;
+	margin: 0 auto;
+
+	border: 1px solid black;
+	padding: 5px;
+}
+
+#title{
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+
+}
+#calories{
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+ul{
+	list-style: none;
+	border: 0.5px dotted black;
+	padding-left: 0px;
+
+}
+li{
+	padding-left: 20px;
+	//margin-top: 2px;
+	//margin-bottom: 2px;
+}
+
+.percent{
+	float: right;
+	margin-right: 5px;
+}
+
+@media(max-width: 1024px){
+	.wrapper{
+		width: 40%;
+		margin: 0 auto;
+
+		border: 1px solid black;
+		padding: 5px;
+	}
+}
+
+@media(max-width: 425px){
+	.wrapper{
+		width: 95%;
+		margin: 0 auto;
+
+		border: 1px solid black;
+		padding: 5px;
+	}
+}
+
